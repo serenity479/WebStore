@@ -1,0 +1,26 @@
+.elmsAuthWind{
+	background: #bed7dd;
+	color: #0a0a0a;
+	border-radius: 3px;
+	display: block;
+	padding: 10px 0;
+	text-decoration: none;
+	text-align: center;
+	/* font-weight: bold; */
+ }
+
+ .inputAuthProduct{
+	width: 300px;
+	margin: 10px auto;	
+	font-size: 18px;
+}
+
+.btnAuth{
+	width: 150px;	
+	margin: 30px auto;	
+	font-size: 18px;
+}
+
+.error{
+   background: red;
+}

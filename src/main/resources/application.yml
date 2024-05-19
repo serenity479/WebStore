@@ -1,0 +1,21 @@
+client:
+  ticketagent:
+   address: http://localhost:8080/service/ProductService
+
+server:
+  port: 8080
+
+cxf:
+  path: /service # url, по которому будет срабатывать CXFservlet
+
+
+spring:
+  jpa: generate-ddl=true
+  datasource:
+    url: jdbc:postgresql://localhost/postgres
+    username: postgres
+    password: admin
+    driverClassName: org.postgresql.Driver
+
+jdbc:
+  drivername: org.postgresql.Driver
